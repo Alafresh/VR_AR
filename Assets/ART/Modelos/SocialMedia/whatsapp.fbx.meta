@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 2053b82dc91b92c4c97a51422b4b5ddf
+guid: a4ea7329602f9084c89215095a19473d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tinta (2)
+    second: {fileID: 2100000, guid: 2af8378f5dab38c40b88ee649b93b502, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: cfb88f9570352224c8b35b14fa1ffee9
+guid: 791aab6daad83b14ba9939704d85cb47
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LinkedinLogo2
+    second: {fileID: 2100000, guid: bd69f2db499d99f4aa67645ce52385a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LinkedinLogo2_2
+    second: {fileID: 2100000, guid: fd2046a505ff7f74a9d1e87830f3aa33, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
