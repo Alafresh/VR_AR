@@ -18,12 +18,9 @@ public class PlayVideoClips : MonoBehaviour
         StartCoroutine(PlayNextVideo());
     }
     IEnumerator PlayNextVideo() {
-        while (true) { 
-            if (currentClipIndex > videoClips.Length) {
-                currentClipIndex = 0;
-            }
+        while (true) {
             yield return new WaitForSeconds((float)videoPlayer.clip.length);
-            currentClipIndex++;
+            currentClipIndex = (currentClipIndex + 1) % videoClips.Length;
             videoPlayer.clip = videoClips[currentClipIndex];
             videoPlayer.Play();
         }
