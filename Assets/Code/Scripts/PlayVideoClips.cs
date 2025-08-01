@@ -13,7 +13,7 @@ public class PlayVideoClips : MonoBehaviour
         videoPlayer.clip = videoClips[currentClipIndex];
     }
 
-    private void Start() {
+    public void PlayVideos() {
         videoPlayer.Play();
         StartCoroutine(PlayNextVideo());
     }

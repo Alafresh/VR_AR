@@ -396,7 +396,7 @@ MonoBehaviour:
   m_Sprite: {fileID: -476127845486259243, guid: 47303faf611096549a78c08eaef1fb5b,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_Sprite: {fileID: -621428037210937825, guid: 47303faf611096549a78c08eaef1fb5b,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -916,7 +916,19 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1238317944}
+        m_TargetAssemblyTypeName: PlayVideoClips, Assembly-CSharp
+        m_MethodName: PlayVideos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -1069,9 +1081,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1238317943}
   videoClips:
-  - {fileID: 32900000, guid: 168ac8469c122c84287274016abe57d8, type: 3}
-  - {fileID: 32900000, guid: 7fce38f18aeefe9449c72aaeeee0eddb, type: 3}
-  - {fileID: 32900000, guid: 752bb1b426e5d1e4b84b0bcd5d4b723c, type: 3}
+  - {fileID: 32900000, guid: 0a36e2eb75d922c4f86696bdf468be53, type: 3}
+  - {fileID: 32900000, guid: 4debc514f3ca6454a82b0255087bc88a, type: 3}
+  - {fileID: 32900000, guid: 0d8deae7111269c4ebfcad68cd2197f3, type: 3}
 --- !u!1 &1332690990
 GameObject:
   m_ObjectHideFlags: 0
@@ -1739,7 +1751,7 @@ MonoBehaviour:
   m_Sprite: {fileID: -1396555777774866930, guid: 47303faf611096549a78c08eaef1fb5b,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
