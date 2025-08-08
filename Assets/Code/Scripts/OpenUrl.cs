@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class OpenUrl : MonoBehaviour
 {
+    [SerializeField] string url;
     void OnMouseDown() {
-        // Destroy the gameObject after clicking on it
-        Destroy(gameObject);
+        Application.OpenURL(url);
     }
 }
